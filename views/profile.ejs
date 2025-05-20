@@ -1,0 +1,12 @@
+<h2 style="text-align:center; font-weight:600; margin-bottom:1.5rem; color:#222;">Welcome, <%= user.username %></h2>
+
+<div style="max-width: 400px; margin: auto; background:#fff; padding:1.5rem 2rem; border-radius:8px; box-shadow: 0 4px 12px rgb(0 0 0 / 0.1); font-size:1rem; color:#333;">
+  <p><strong>Email:</strong> <%= user.email %></p>
+  <p><strong>User ID:</strong> <%= user.id %></p>
+  <p><strong>Joined:</strong> <%= new Date(user.created_at).toLocaleDateString() %></p>
+</div>
+
+<a href="/logout" 
+  style="display: block; max-width: 400px; margin: 2rem auto 0; background:#ef4444; color:#fff; padding:0.75rem; border-radius:6px; text-align:center; text-decoration:none; font-weight:600; transition: background 0.3s;">
+  Logout
+</a>
