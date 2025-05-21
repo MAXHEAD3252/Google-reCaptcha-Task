@@ -6,6 +6,7 @@
 - JWT-based authentication
 - Password hashing (bcrypt)
 - EJS templates
+- MVC Architecture
 
 ## Setup
 
