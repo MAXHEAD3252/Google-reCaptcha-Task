@@ -14,3 +14,8 @@
 2. Install dependencies:
    ```bash
    npm install
+
+## Project Execution 
+1. Start the Project 
+ ```bash
+   npm start
